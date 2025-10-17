@@ -120,15 +120,15 @@ export default function HierTable({ tree, setTree, originalTree }) {
         sx={{
           borderCollapse: "collapse",
           "& td, & th": {
-            border: "1px solid #ccc", // or your color
+            border: "1px solid #ccc",
           },
         }}
       >
         <TableHead
           sx={{
-            backgroundColor: "#f5f5f5", // light grey
+            backgroundColor: "#f5f5f5",
             "& th": {
-              border: "1px solid #ccc", // keep grid consistent
+              border: "1px solid #ccc",
               fontWeight: 600,
             },
           }}

@@ -8,7 +8,7 @@ function deepClone(x) {
 }
 
 export default function App() {
-  // original snapshot for variance calc
+  // original snapshot for variance calculation
   const originalTree = useMemo(() => deepClone(initial), []);
   const [tree, setTree] = useState(() => {
     // ensure parent totals are computed from children on load
